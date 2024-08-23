@@ -1,0 +1,202 @@
+.tekst{
+	padding: 15px;
+	color: #000000;
+	font-size: 0.5cm;
+	margin-left: 40px;
+	text-indent: 1cm;
+	margin-right: 40px;
+	background-color: rgba(255, 255, 255, 0.688);
+}
+
+body 
+{
+	
+	margin-top: 0px;
+	margin-bottom: 00px;
+	margin-right: 0px;
+	margin-left: 0px;
+	
+}
+div{
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+.foot
+{
+	padding-left: 3cm;
+	padding-bottom: 0cm ;
+	background-color: #000000;
+	width: auto;
+}
+.horizon {
+	list-style-type: none;
+	margin-top: 5cm;
+	border: 3px solid #00bfff;
+	padding: 0;
+	width: auto;
+	word-wrap: break-word;
+	text-align: center;
+	background-color: #ffea00;
+	position: fixed;
+	height: auto;
+	overflow: auto;
+	}
+.punkty{
+	border: 1px solid  #00bfff;	
+	}
+.punkty a:hover {
+	background-color: #ffd900;
+	}
+.punkty a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	}
+.Greek{
+	background-attachment: fixed;
+	background-size: 150% 150%;
+	background-repeat: no-repeat;
+	background-image: url("sky.png");
+}
+.Greek table{
+	position: relative;
+	width: 80%;
+}
+
+.Greek img{
+	width: 100vw;
+	height: 100vh;
+}
+.Norse{
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url("snow.png");
+}	
+
+.Norse img{
+	width: 100vw;
+	height: 100vh;
+}
+.Gretcy img{
+    max-width: 200px;
+	max-height: 200px;
+    height: auto;
+    width: auto;
+}		
+.Gretcy
+{
+	width: 100cm;
+	margin-left: 4cm;
+	margin-right: 70px;
+	font-size: 14px;
+	background-image: url("gold.png");
+	word-wrap: break-word;
+	text-align: center;
+	border-image-source:url('kolumna.png');  
+	border-image-repeat: stretch;
+	border-image-slice: 30;
+ 	border-image-width: 20px;
+ 	border-image-outset: 20px;
+		
+}
+.Nordytcy
+{
+	margin-left: 4cm;
+	margin-right: 70px;
+	font-size: 14px;
+	background-image: url("iron.png");
+	table-layout: fixed;
+	word-wrap: break-word;
+	text-align: center;
+	border-image-source:url('frame.png');  
+	border-image-repeat: stretch;
+	border-image-slice: 30;
+ 	border-image-width: 20px;
+ 	border-image-outset: 20px;
+	
+}
+.Nordytcy img{
+	
+    max-width: 200px;
+	max-height: 200px;
+    height: auto;
+    width: auto;
+}	
+.pierwszy{
+	color:rgba(255, 162, 0, 0.805);
+	font-family: 'Calibri Light';
+}
+		
+.opcja1
+{
+	height: 2cm;
+	font-family: 'Segoe Script';
+	font-size: 26px;
+	color: #000000;
+	background-image: url('marble.png');
+}	
+.opcja2
+{
+	height: 2cm;
+	font-family: 'Segoe Script';
+	font-size: 26px;
+	color: #000000;
+	background-image: url('stone.png');
+}	
+.opcja3
+{
+	height: 2cm;
+	font-family: 'Segoe Script';
+	color: #0091ff;
+	font-size: 26px;
+	background-image: url('sun.png');
+}
+
+.navigation{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.mitologie
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2b00ff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}	
+.navi{
+	float: left;
+}
+
+.navi a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navi a:hover{
+	background-color: rgb(255, 208, 0);
+}
+.button {
+	background-color: #2b00ff;
+	border: none;
+	color:  rgb(255, 208, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+  }

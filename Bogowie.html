@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogowie</title>
+    <link rel="stylesheet" href="Lista_CSS.css">
+    <script src="skrypt.js"></script>
+    
+    <style>
+        body {
+            background-image: url("stars.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("stars1.png");
+            text-align: center;
+            font-family: 'Segoe Script';
+            color: gold;
+        }
+        table td:first-child {
+            font-weight: bold;
+        }
+        a {
+            color: black;
+        }
+        
+        table img {
+            max-width: 4cm;
+            max-height: 5cm;
+        }
+        table {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            table-layout: fixed;
+            text-align: center;
+            font-family: 'Segoe Script';
+            color: black;
+        }
+        table tr {
+            font-size: 14px;
+            padding: .35em;
+        }
+
+        table th, table td {
+            border: 2px solid #ddd;
+            padding: .625em;
+            text-align: center;
+        }
+
+        table th {
+            font-size: 16px;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+
+        @media screen and (max-width: 600px) {
+            table {
+                border: 0;
+            }
+
+            table caption {
+                font-size: 1.3em;
+            }
+            
+            table thead {
+                border: none;
+                clip: rect(0 0 0 0);
+                height: 1px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+                width: 1px;
+            }
+            
+            table tr {
+                border-bottom: 3px solid #ddd;
+                display: block;
+                margin-bottom: .625em;
+            }
+            
+            table td {
+                border: 0 solid #ddd;
+                border-bottom: 1px solid #ddd;
+                display: block;
+                font-size: .8em;
+                text-align: right;
+            }
+            
+            table td::before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            
+            table td:last-child {
+                border-bottom: 0;
+            }
+        }
+
+        #greek {
+            margin-top: 1cm;
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("sky.png");
+        }
+                    
+        div {
+            margin-top: 1cm;
+        }
+        #norse {
+            margin-top: 1cm;
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("snow1.gif");
+        }
+            
+        .wejscie {
+            width: 98.9vw;
+            height: 99.9vh;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url("clouddd.png");
+            z-index: 1;
+            position: absolute;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            animation: 3s linear 0s alternate cloud;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes cloud {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+                z-index: -1;
+            }
+        }
+        h1 {
+            margin-top: 1cm;
+        }
+    </style>
+</head>
+<body onload="zegarek();">
+    <ul class="navigation">
+        <li class="navi"><a href="index.html" target="_blank">Home</a></li>
+        <li class="navi"><a href="mitologia_nordycka.html" target="_blank">Mitologia Nordycka</a></li>
+        <li class="navi"><a href="mitologia_grecka.html" target="_blank">Mitologia Grecka</a></li>
+        <li class="navi"><a href="Formularz.html" target="_blank">Formularz</a></li>
+        <li class="navi" id="zegar" style="color: white; font-size: auto; float: right;"> </li>
+    </ul>
+    <ul class="mitologie" style="margin-top: 1cm;">
+        <li class="navi"><button class="button" onclick="loadDoc1()">Bogowie greccy</button></li>
+        <li class="navi"><button class="button" onclick="loadDoc2()">Bogowie nordyccy</button></li>
+    </ul>
+
+    <div class="wejscie"></div>
+
+    <div id="demo">
+        <h1>Bogowie greccy</h1>
+        <table id="greek">
+            <thead>
+                <tr>
+                    <th scope="col">Imię</th>
+                    <th scope="col">Rodzice</th>
+                    <th scope="col">Bóg/Bogini...</th>
+                    <th scope="col">Atrybuty</th>
+                    <th scope="col">Opis</th>
+                    <th scope="col">Obraz</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Zeus (odpowiednik rzymski to Jowisz)</td>
+                    <td>Kronos i Reja</td>
+                    <td>Nieba, władców</td>
+                    <td>Błyskawica</td>
+                    <td>Władca wszystkich bogów i ludzi, uosobienie najwyższej zasady rządzącej Wszechświatem, kobieciarz, mąż Hery</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Zeus"><img src="/images/zeus1.png" alt="Zeus"></a></td>
+                </tr>
+                <tr>
+                    <td>Hera (odpowiedniczka rzymska to Junona)</td>
+                    <td>Kronos i Reja</td>
+                    <td>Nieba, małżeństw</td>
+                    <td>Paw, owoc granatu</td>
+                    <td>Bogini niebios i płodności, opiekunka rodziny, małżeństwa i piękna. Opiekunka macierzyństwa i królowa Olimpu. Uosobienie cnót małżeńskich, cierpiała przez niewierność swego męża. Mściła się na jego kochankach i nieślubnych dzieciach.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Hera"><img src="/images/hera.png" alt="Hera"></a></td>
+                </tr>
+                <tr>
+                    <td>Posejdon (odpowiednik rzymski to Neptun)</td>
+                    <td>Kronos i Reja</td>
+                    <td>Morza, wód, oceanów itp.</td>
+                    <td>Trójząb</td>
+                    <td>Władca niemalże wszystkiego co wodne (nie władał np. kałużami), starszy brat Zeusa, zazdrościł bratu władzy i często namawiał innych do buntu. Jego dziećmi byli często cyklopi lub olbrzymy. Mimo że bogowie często potrafili być obojętni na krzywdę swojego potomstwa to w przypadku Posejdona tak nie było. Kiedy, ktoś skrzywdził jego potomstwo, on zsyłał na nieszczęśnika okrutne klątwy. Taki los spotkał Odyseusza, który zabił jego syna Polifema przez co nie mógł wrócić do swojej ojczyzny przez ponad 10 lat nim złamał klątwę.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Posejdon"><img src="/images/posejdon.png" alt="Posejdon"></a></td>
+                </tr>
+                <tr>
+                    <td>Hades (odpowiednik rzymski to Pluton)</td>
+                    <td>Kronos i Reja</td>
+                    <td>Zaświatów nazywanych od jego imienia Hadesem, martwych i bogatych</td>
+                    <td>Berło, klucze, Cerber (pies z trzema głowami), hełm/czapka niewidzialności</td>
+                    <td>Mimo pełnionej funkcji nie był złym bogiem, wręcz przeciwnie uznawany był za sprawiedliwego i dobrego. Był patronem bogaczy, gdyż Rzymianie wierzyli, że to on rozdaje kosztowności. Zaświaty nazywane jego imieniem dzielone były na 3 główne krainy: Pola Elizejskie (mieszkali tam bohaterowie) gdzie żyło się dobrze, Tartar dla złoczyńców gdzie byli wiecznie torturowani i zwyczajne łąki dla neutralnych dusz.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Hades"><img src="/images/hades.png" alt="Hades"></a></td>
+                </tr>
+                <tr>
+                    <td>Demeter (odpowiedniczka rzymska to Ceres)</td>
+                    <td>Kronos i Reja</td>
+                    <td>Urodzaju, zbóż, rolnictwa, płodności ziemi</td>
+                    <td>Zboże, pochodnia</td>
+                    <td>Siostra Zeusa, była boginią urodzaju, płodności, zbóż i rolnictwa. Wraz z córką Persefoną dbały o rolników i dobre plony. Kiedy córka została porwana do Hadesu na 3 miesiące w roku świat zamierał i to miało być wytłumaczenie dla zimy.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Demeter"><img src="/images/demeter.png" alt="Demeter"></a></td>
+                </tr>
+                <tr>
+                    <td>Atena (odpowiedniczka rzymska to Minerwa)</td>
+                    <td>Zeus i Metis (w niektórych przekazach córka samego Zeusa)</td>
+                    <td>Mądrości, wojny sprawiedliwej, opiekunka miasta Ateny</td>
+                    <td>Włócznia, sowa</td>
+                    <td>Podobno narodziła się z głowy Zeusa w pełnej zbroi. Była opiekunką miasta Ateny i najważniejszą boginią po Herze. Grecy wierzyli, że ich kultura przetrwa dopóty, dopóki płomień na jej ołtarzu w Atenach będzie płonął. Była także opiekunką herosów i roztaczała nad nimi opiekę. Patronka rzemiosła i tkactwa. Cieszyła się ogromną popularnością.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Atena"><img src="/images/atena.png" alt="Atena"></a></td>
+                </tr>
+                <tr>
+                    <td>Apollo (nazywany tak samo w Rzymie)</td>
+                    <td>Zeus i Leto</td>
+                    <td>Słońca, muzyki, sztuki, poezji, piękna, zdrowia, wróżbiarstwa</td>
+                    <td>Lira, wieniec laurowy, łuk</td>
+                    <td>Brat bliźniak Artemidy, zakochał się w nim Hiacynt, który nie odwzajemniał jego uczuć, więc Apollo przypadkiem zabił go w zawodach. Kwiat hiacynt miał wyróść z jego krwi.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Apollo"><img src="/images/apollo.png" alt="Apollo"></a></td>
+                </tr>
+                <tr>
+                    <td>Artemida (odpowiedniczka rzymska to Diana)</td>
+                    <td>Zeus i Leto</td>
+                    <td>Księżyca, łowów, natury</td>
+                    <td>Łuk, kołczan strzał, półksiężyc</td>
+                    <td>Była boginią łowów, zwierząt, gór, lasów i roślinności, a także opiekunką pasterzy. Jako bogini księżyca Artemis, była identyfikowana z Selene i Hekate. Była także opiekunką i strażniczką dzieci i kobiet oraz boginią płodności. Była córką Zeusa i Latony, siostrą bliźniaczką Apolla, narodziła się na wyspie Ortygia. Była uznawana za córkę Demeter, przydawano jej różne imiona np. Artemida Efeska, Delfini, Brauronia. Miała wiele cech, które później przejęła Diana. W świątyni Artemidy w Efezie, która należała do siedmiu cudów świata znajdował się jej słynny posąg z licznymi atrybutami. Artemida miała olbrzymią sferę wpływów. Przez Greków uważana za tą, która sprowadzała choroby i strzały Apolla, gdyż byli nierozłączni.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Artemida"><img src="/images/artemida.png" alt="Artemida"></a></td>
+                </tr>
+                <tr>
+                    <td>Hefajstos (odpowiednik rzymski to Wulkan)</td>
+                    <td>Hera, samodzielnie (w innych wersjach Zeus i Hera)</td>
+                    <td>Ognia, kowali, złotników, rzemiosła</td>
+                    <td>Młot, kowadło, obcęgi</td>
+                    <td>Był boskim kowalem. Jego warsztat mieścił się w wulkanie Etna, gdzie razem z pomocnikami cyklopami wykuwał pioruny dla Zeusa i broń dla innych bogów oraz herosów. Był bardzo brzydki, jego matka go znienawidziła i zrzuciła z Olimpu, przez co miał uszkodzoną nogę i kulejąc wrócił na Olimp. Mimo to w nagrodę otrzymał najpiękniejszą boginię, Afrodytę, która okazała się niewierna.</td>
+                    <td><a href="https://pl.wikipedia.org/wiki/Hefajstos"><img src="/images/hefajstos.png" alt="Hefajstos"></a></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

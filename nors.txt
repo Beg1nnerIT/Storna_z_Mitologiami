@@ -1,0 +1,116 @@
+<h1>Bogowie nordyccy</h1>
+<table  id="norse">	
+				
+				<thead>
+				<tr>
+				<th scope="col">Imię</th>
+				<th scope="col">Rodzice</th>
+				<th scope="col">Bóg/Bogini...</th>
+				<th scope="col">Atrybuty</th>
+				<th scope="col">Opis</th>
+				<th scope="col">Obraz</th>
+				</tr>
+				</thead>
+				<tbody>
+				
+				<tr>
+				<td>Odyn</td>
+				<td>Borr i Bestla</td>
+				<td>W wojny i wojowników, mądrości, poezji, magii</td>
+				<td>Kruki (Hugin i Munin), wilk, włócznia (Gungnir)</td>
+				<td>Król bogów, bóg kruków, i władca wysielców. Władca asow (rasy bogów nordycikch), 
+					miał tak ogromny apetyt wiedzy, że pewnego razu , powiesił się na drzewie Yggdrasil na dziewięć dni, przebity własną włócznią, a także poświęcił jedno oko Mimirowi w zamian za napicie się z jego studni wiedzy.  </td>
+				<td><a href="https://pl.wikipedia.org/wiki/Odyn"><img src="Odyn.png" alt="Odyn"></a></td>
+				</tr>
+				
+				<tr>
+				<td>Thor</td>
+				<td>Odyn i Jörð</td>
+				<td>Burzy i piorunów, sił witalnych, rolnictwa patron ogniska domowego i małżeństwa </td>
+				<td>Młot Mjølner, ruda broda, magiczny pas i żelazne rękawice, zaprzęg, dąb</td>
+				<td>Thora uznawano za bardziej przychylnego ludziom niż Odyn – równie gwałtownego, ale mniej tajemniczego. 
+					Drzewem poświęconym Thorowi był dąb. Podróżował rydwanem zaprzężonym w kozły, Tanngrisnir i Tanngnjóstr. 
+					Nie był tak przebiegły jak Odyn i zdarzało mu się wpaść w pułapkę (przykładem tego jest słynna przygoda Thora w gościnie u króla Utgardu,
+					olbrzyma zwanego Skirnirem), ostatecznie jednak zawsze zwyciężał.
+					W czasie zmierzchu bogów Thor zabija węża Midgardu, wielkiego Jormunganda, lecz zginie zatruty jego jadem.</td>
+				<td><a href="https://pl.wikipedia.org/wiki/Thor"><img src="thor.png" alt="Thor"></a></td>
+				</tr>
+				
+				<tr>
+				<td>Freja</td>
+				<td>Njörðr i ???</td>
+				<td>Wegetacji, miłości, płodności, magii, wojny</td>
+				<td>Złoty naszyjnik Brisingamen </td>
+				<td>Według mitów uważana za najpiękniejszą z bogiń. Jej obecność na Asgardzie gwarantowała innym bóstwom szczęśliwe życie. 
+					Jej atrybutem był złoty naszyjnik Brisingamen. Freja posiadała też drugi naszyjnik, Hildiswin, 
+					wykuty przez dwóch braci — Daina i Nabbiego, krasnoludzkich złotników. Często towarzyszyły jej małe białe koty, które powoziły jej 
+					rydwanem, oraz dzik Hildisvíni. Wyobrażano ją często jako postać otoczoną okrągłym pierścieniem, który przedstawiał jej 
+					naszyjnik i symbolizował płodność. Jest boginią, której poświęcono najwięcej mitów, zazwyczaj jednak stanowi w nich przedmiot 
+					pożądania olbrzymów, bogów i ludzi.</td>
+				<td><a href="https://pl.wikipedia.org/wiki/Freja"><img src="Freja.png" alt="Freja"></a></td>
+				</tr>
+		
+				<tr>
+				<td>Tyr</td>
+				<td>Hymir i ???</td>
+				<td>Wojny, walki, siły, honoru, prawa, sprawiedliwości </td>
+				<td>Magiczny miecz, Jedna ręka, Runa w kształcie strzały lub dzidy: <img src="Tiwaz.png" alt="rune" style="width: 1cm;" ></td>
+				<td>Zwany był "jednorękim", gdyż stracił rękę podczas próby poskromienia wilka Fenrira. 
+					Bogowie, zdając sobie sprawę z zagrożenia, jakie stanowi ten potwór, poprosili krasnoludy o sporządzenie cienkiej i delikatnej lecz nierozelwany 
+					sznur - Gleipnir (zrobiono go z odgłosu stąpania kota, brody kobiety, korzenia skały, ścięgien niedźwiedzia, oddechu ryby i śliny ptaka).
+					Do założenia go starali się podstępem nakłonić Fenrira. Wilk pozwolił sobie nałożyć sieć pod warunkiem, że jeden z bogów włoży dłoń do jego pyska.
+					Gdy odkrył, że wpadł w pułapkę, odgryzł dłoń Tyra, ponieważ to właśnie on przyjął ryzykowny zakład. 
+					Uważa się, że Tyr pierwotnie pełnił rolę bóstwa naczelnego, którą stracił później na rzecz Odyna.
+					Gdy nadejdzie Ragnarök, Tyr będzie walczył z Garmem, psem bogini Hel. W wyniku tej walki zabiją się obaj nawzajem. </td>
+				<td><a href="https://pl.wikipedia.org/wiki/Tyr_(b%C3%B3g)"><img src="tyr.png" alt="Tyr"></a></td>
+				</tr>	
+				
+				<tr>
+				<td>Loki</td>
+				<td>Farbauti i Laufey</td>
+				<td>Ognia, oszustwa, kłamst i chaosu</td>
+				<td>Brak</td>
+				<td>Loki posiadał zdolność przemiany, włącznie ze zmianą płci. Zrodził (stworzył) największe potwory wilka Fenrira, węża Jormunganda i boginię umarłych Hel
+					według większości wersji miał owo potomstwo z olbrzymką Angerbodą z Żelaznego Lasu. Nigdy do końca nie trzymał z żadną ze stron 
+					(oprócz ragnaröku, gdy wreszcie opowie się przeciw bogom i powiedzie na nich olbrzymów). Dzięki Lokiemu bogowie zdobyli też swoje najważniejsze atrybuty.
+					Bogowie, mając Lokiego za szaleńca i psotnika, wybaczali mu wiele złych uczynków, ale kiedy przyczynił się do zabicia Baldura oraz uniemożliwił mu powrót
+					z zaświatów, przykuli go (w niektórych podaniach przywiązali jelitami jego synów, Valiego i Narviego) do skały, gdzie musiał odkupić swój uczynek, 
+					przykuty łańcuchami tak, żeby padał na jego twarz okropny jad węża znajdującego się nad nim. Jego wierna żona Sigyn trzymała misę nad twarzą Lokiego i 
+					gdy ta napełniała się, Sigyn opróżniała ją – wtedy kropla jadu docierała do twarzy Lokiego i ten, trzęsąc się z bólu, powodował trzęsienie Ziemi. 
+					Wierzono, że w końcu Loki wyswobodzi się z więzów i zapragnie zemsty. Ragnarök rozpocznie się przypłynięciem do Asgardu statku Nagelfar, którego Loki 
+					będzie sternikiem. Loki zginie podczas ragnaröku walcząc z bogiem strażnikiem Heimdallem (zabiją się nawzajem) – będzie to pierwsza wielka walka ragnaröku.
+				</td>
+				<td><a href="https://pl.wikipedia.org/wiki/Loki"><img src="Loki.png" alt="Loki"></a></td>
+				</tr>
+
+				<tr>
+				<td>Hejmdal</td>
+				<td>dziewięciu Dziewic – Fal (<u>nie pytać</u>)</td>
+				<td>Brak gdzyż jego zadanime było strzeżenie Tęczowego Mostu Bifrost</td>
+				<td>Ruda broda, Złote zęby, Róg Gjallarhorn, Lściący miecz</td>
+				<td>Strażnik Tęczowego Mostu zwanego Bifrost, będącego wejściem do Asgardu. 
+					Mógł widzieć na bardzo duże odległości, a jego ucho było tak wrażliwe, że słyszał, jak rośnie trawa i wełna na owcach. 
+					W dzień ragnarök Hajmdal zadmie w wielki róg Gjallarhorn, a w bitwie, która potem nastąpi, zabije Lokiego i sam zginie z jego ręki. </td>
+				<td><a href="https://pl.wikipedia.org/wiki/Hejmdal"><img src="Hejmdal.png" alt="Hejmdal"></a></td>
+				</tr>
+				
+				<tr>
+				<td>Hel</td>
+				<td>Kronos i Reja</td>
+				<td>Nieba, małżeńst</td>
+				<td>Suknia, Tron - łoże chorych, połowa twarzy zdeformowana rozkładem a druga - zdrowa, twarz i pół ciała 
+					Żywej kobiety a nogi Szkieletu</td>
+				<td>personifikacja śmierci, córka boga imieniem Loki i przerażającej olbrzymki Angerbody. Jej braćmi byli wilk Fenrir i wąż Jormungand. 
+					Hel według mitów uległa jedynie częściowemu rozkładowi – zachowała twarz i ciało żywej kobiety, natomiast jej nogi były szkieletem. Hel bywa też przedstawiana 
+					jako osoba, której połowa ciała była ludzkiego koloru, druga przerażała trupią zgniłogranatową barwą. Siedzibą Hel jest Niflheim, 
+					skąd rządzi duszami zmarłych.Zasiadała na tronie zwanym "Łożem chorych". Była boginią bezlitosną – odmówiła uwolnienia ze swego królestwa zabitego
+					na skutek intrygi Lokiego boga Baldura, mimo że jego brat Hermod osobiście udał się do piekieł, aby ją o to prosić. Gdy nadejdzie Ragnarok, dusze 
+					jej poddanych wyruszą do walki przeciw bogom. Hel to także pierwotna nazwa piekła w mitologii nordyckiej. Dostęp do tej krainy wiedzie przez jaskinię o 
+					nazwie Gnipahellir i jest strzeżony przez dwugłowego psa o imieniu Garm. Najgłębiej umieszczoną częścią tej krainy jest Nastrond, przedstawiany 
+					jako kraina poprzecinana rwącymi strumieniami i rozlanym wokół morzem kwasu i jadu, w którym brodzą najgorsi przestępcy, zdrajcy itp. Tam też mieści się siedziba Nidhogga, potwornego smoka, 
+					który zjada korzenie Yggdrasilu, Drzewa Świata. </td>
+				<td><a href="https://pl.wikipedia.org/wiki/Hel_(bogini)"><img src="Hel.png" alt="Hel"></a></td>
+				</tr>
+
+				</tbody>
+				</table>

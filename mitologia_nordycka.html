@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Norse</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="skrypt.js"></script>
+		<script>
+			$(document).ready(function()
+			{
+			   $("#minus").click(function()
+			   {	
+					$("img").css("width", "10cm"); 
+			     
+			   });
+		   }); 
+	   </script>
+		<link rel="stylesheet" href="Lista_CSS.css">
+		
+		<style>
+		body{
+				background-image: url("snow.gif");
+				background-attachment: fixed;
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+
+			}
+		ul{
+		list-style-type: none;
+		margin: 0cm;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		}
+		.button{
+			color: #000000;
+			font-size: 2cm;
+			background-color: rgba(255, 255, 255, 0.688);
+			width: 2cm;
+
+		}
+
+		h3{
+			margin-left: 40px;
+		}
+		h1{
+			margin-top:1.5cm;
+			margin-left: 30px;
+			font-family: 'Segoe Script';
+			padding: 5px;
+			font-size: 15px;
+			color: #fff700e2;
+			width: 10cm;
+			height: 20px;
+			background-color: #049fffd9;
+		}
+		h2{
+			margin-top:1.5cm;
+			margin-left: 40px;
+			font-family: 'Segoe Script';
+			padding: 5px;
+			font-size: 12px;
+			color: #fff700e2;
+			width: 10cm;
+			height: 20px;
+			background-color: #049fffd9;
+		}
+		.Yggdrasil
+		{
+			margin-left: 2cm;
+			width: 10cm;
+			width: 10cm;
+		}
+		.Yggdrasil img
+		{
+			width: 20cm;
+		}
+		</style>
+	</head>
+	<body onload="zegarek();">
+		<ul class="navigation">
+			<li class="navi"><a href="index.html" target="_blank">Home</a></li>
+			<li class="navi"><a href="mitologia_grecka.html" target="_blank">Mitologia grecka</a></li>
+			<li class="navi"><a href="Bogowie.html" target="_blank">Bogowie</a></li>
+			<li class="navi"><a href="Formularz.html" target="_blank">Formularz</a></li>
+			<li class="navi" id="zegar" style="color: white; font-size: 0.9cm; float: right;"> </li>
+		</ul>
+	 <h1>Mitologia nordycka</h1>
+	<div class="poczatek" id="poczatek">
+		<h1>Poczatek z ognia i lodu</h1>
+		<p class="tekst">
+			Pierwociny świata powstały w morzu deszczu i stopniałego śniegu, powstałego za sprawą lodu krainy Niflheim na północy oraz ognia krainy Muspelheim na południu.
+			W tym oceanie powstał Ymir, początkowo unosił się na falach, potem nabrał sił dzięki prakrowie Audhumli, która opiekowała się nim i 
+			karmiła własnym mlekiem. Ona też liżąc lodową skałę przywołała do życia Búriego (Zrodzony). Ymir dał życie pierwszym 
+			ludziom-gigantom oraz lodowym olbrzymom. Spod jego pachy wyszli syn i córka, a z jego nóg sześciogłowy olbrzym Thrudgelmir.
+			Ymira zabili jego prawnukowie: Odyn, Wili i We, a z jego ciała stworzyli Midgard. Z mięsa powstała ziemia, 
+			z kości – góry, z zębów i szczęk – kamienie i skały, z włosów – lasy, z czaszki – sklepienie nieba, z mózgu – chmury. 
+			Rzęsy Ymira posłużyły za wał chroniący Śródziemie przed atakami innych olbrzymów.
+			Krew Ymira spowodowała potop, krew ta została przez Odyna, Wiliego i We zamieniona w morze. 
+		</p>
+	</div>
+	<h1>Yggdrasil</h1>
+
+	<div class="Yggdrasil" id="div_z_Yggdrasil">
+		<button id="plus" class="plus" onclick="plus()" >+</button>
+		<button id="orgin" class="orgin" onclick="orgin()" >=</button>
+		<button id="minus" class="minus">-</button>
+		<img src="yggrasill.png" alt="tree of world" id="Yggdrasil">
+	</div>
+	<div class="Ragnarok" id="Ragnarok">
+		
+		<h1>Ragnarok - zmierzch bogów</h1>
+	</div>
+	
+	<h2>Dzień ostatecznej bitwy poprzedzą</h2>
+	<p class="tekst">
+    1.Śmierć Baldura <br>
+    2. Narodziny trójki dzieci Lokiego i Angrbody <br>
+    3.Fimbulvinter, trzy zimy bez lata, podczas której zamarznie cały Midgard. Ludzie pogrążą się w wojnach, grabieży i przemocy. Zniknie wszelka moralność. Przeżyje tylko jeden mężczyzna i jedna kobieta, którzy skryją się w gałęziach drzewa Yggdrasil. <br>
+	</p>
+	<h2>Przebieg kręgu życia w mitologii skandynawskiej</h2>
+	<p class="tekst">
+    1. Dwa straszliwe wilki – Sköll i Hati – goniące Słońce (Sol) i Księżyc (Maniego) wreszcie dopadną swe ofiary. Wtedy Słońce i Księżyc przestaną istnieć, gwiazdy pospadają i cały nieboskłon ulegnie zniszczeniu.<br>
+    2. Zapieją koguty, wzywając do walki: Fjalar w Jotunheimie, Gullinkambi w Asgardzie i kogut koloru rdzy w Niflheimie.<br>
+    3. Garm, pies piekieł, głośno zaszczeka. Na ten sygnał więzy krępujące Lokiego i Fenrira opadną.<br>
+    4. Loki i Fenrir (straszliwy wilk związany przez bogów) uwolnią się z więzów i postanowią zemścić się na bogach. Wąż Midgardu wyjdzie z wody na ląd, a Loki, wraz z olbrzymami i innymi sprzymierzonymi mu potworami, na statkach, aby zemścić się na swych wrogach. Hajmdal (bóg-strażnik przejścia ze świata śmiertelników, Midgardu, do świata bogów, Asgardu), widząc zbliżających się wrogów, zagra po raz ostatni na rogu Gjallarhorn, tak głośno, że słychać go będzie we wszystkich dziewięciu światach. Pod ciężarem przechodzących po nim gigantów i potworów zawali się również sam Bifrost, Tęczowy Most – przeprawa między światami strzeżona przez Hajmdala, boga czujności.<br>
+    5. Odyn wyprowadzi swych wojowników z Walhalli, by wzięli udział w bitwie. Odyn zginie jednak pożarty przez Fenrira. Pomści go Widar. Na widok śmierci Odyna Frigg zapłacze po raz drugi.<br>
+    6. Loki i Hajmdal pozabijają się nawzajem.<br>
+    7. Thor zgładzi straszliwego węża Jormunganda, lecz sam umrze od jego jadu.<br>
+    8. Tyr zginie w pojedynku z Garmem, jednocześnie go zabijając.<br>
+    9. Zginą wszyscy bogowie, a armia Lokiego będzie walczyć z wojownikami Walhalli (wojownikami zwanymi einherjerami) do samego końca.<br>
+    10. Na koniec ognisty olbrzym Surtr, władca Muspelheimu, używając płomiennego miecza zemsty, podpali Asgard i pozostałe światy. Wtedy wszystko zostanie zniszczone. <br>
+	Ludy skandynawskie wierzyły, że po spaleniu Asgardu ocean podniesie się do takiego poziomu, że pod jego falami zginie drzewo świata, Yggdrasil, a z jego głębi wynurzy się nowy, zielony świat – Gimlea, nowy Asgard. Kobieta i mężczyzna, skryci w gałęziach drzewa Yggdrasil, dadzą początek nowej rasie ludzi, zwierząt i bogów. Nowy świat rządzony przez zmartwychwstałego boga Baldura ma być pełen radości i spokoju bez wojen, przemocy i sporów. Wszyscy mają żyć w harmonii, spokoju i w zgodzie. 
+	</p>
+	</body>
+	 
+</html>
